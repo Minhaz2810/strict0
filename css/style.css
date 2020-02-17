@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Uncial+Antiqua&display=swap');
+*{
+	margin: 0;
+	padding:0;
+}
+header{
+	background-color:#f6f9f9;
+
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #2d3950;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+.banner{
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+}
+.height{
+	height: 550px;
+
+}
+.banner h1{
+	color: #fff;
+	font-size: 85px;
+}
+.banner span{
+	display: inline-block;
+	background-color: #15a4fa;
+	height: 2px;
+	width: 100%;
+
+}
+.banner button{
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+}
+.banner button:hover {
+	background-color: #15a4fa;
+}
+.simple{
+	background:  #f0f0f0;
+	
+}	
+.simple p{
+	color: #999999;
+	font-size: 17px;
+}
+.content{
+	text-align: center;
+
+}
+.simple h1{
+	color: #2d3950;
+	font-weight: 400;
+	font-size:40px; 
+}
+.content p{
+	padding-top: 15px;
+	color:#fff;
+	padding-bottom: 35px;
+}
+.icon-box{
+	height: 100px;
+    width: 100px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,48baff+49,5fc3ff+51,5fc3ff+100 */
+background: rgb(72,186,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(72,186,255,1) 1%, rgba(72,186,255,1) 49%, rgba(95,195,255,1) 51%, rgba(95,195,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 1%,rgba(72,186,255,1) 49%,rgba(95,195,255,1) 51%,rgba(95,195,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(72,186,255,1) 1%,rgba(72,186,255,1) 49%,rgba(95,195,255,1) 51%,rgba(95,195,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+}
+.feature-content h4{
+	padding: 15px 0;
+}
+.feature-content p{
+	font-size: 15px;
+}
+.showcase{
+	background: #f0f0f0;
+	height: 815px;
+
+}
+.showcase h1{
+	color: #2d3950;
+	font-weight: 400;
+	font-size:40px; 
+}
+.showcase p{
+	color: #999999;
+	font-size: 17px;
+
+}
+.image{
+	position: relative;
+	margin-bottom: 28px;
+
+}
+.image img{
+
+}
+.image::before{
+	content: '';
+	position: absolute;
+	height: 0;
+	width: 100%;
+	background: #2cacf7c9;
+	top: 0;
+	left: 0;
+}
+
+.image:hover::before{
+	bottom: 100%;
+	height: 100%;
+
+}
+.icon{
+	p;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+	opacity: 0;
+	transition: all .4s ease;
+
+}
+.icon i{
+
+   border: 1px solid #fff;
+   padding: 10px;
+   margin-left: 5px;
+   border-radius: 5px;
+}
+.image:hover .icon{
+	opacity: 1;
+
+}
+.contact{
+	background-image: url(../images/strict8.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.contact::before{
+	content: '';
+	background: #2d3950bd;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.contact-content{
+	color: #fff;
+	padding: 50px 0;
+}
+.contact-content h2{}
+.contact-content p{}
+.contact input{}
+.contact textarea {
+    width: 70%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #7c7c9a;
+    height: 120px;
+}
+.contact ul{}
+.contact ul li{}
+form input{}
+.contact button{
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+}
+.contact button:hover {
+	background-color: #15a4fa;
+}
+.contact input {
+    margin: 10px;
+    width: 70%;
+    height: 39px;
+    background: transparent;
+    border: 1px solid #7c7c9a;
+    padding: 10px;
+    border-radius: 5px;
+}
